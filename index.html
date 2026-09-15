@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Armax Gayrimenkul – güvenilir gayrimenkul danışmanlığı ve güncel portföy." />
+  <title>Armax Gayrimenkul | Güvenle Doğru Yatırım</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand-logo" href="#top" aria-label="Armax Gayrimenkul ana sayfa"><img src="assets/images/armax-logo.jpg" alt="Armax Gayrimenkul - İnşaat Danışmanlığı"></a>
+      <button class="menu-toggle" aria-label="Menüyü aç/kapat">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#portfoy">Portföy</a><a href="#hizmetler">Hizmetler</a><a href="#hakkimizda">Hakkımızda</a><a href="#ekibimiz">Ekibimiz</a><a href="#iletisim">İletişim</a>
+      </nav>
+      <a class="header-cta" data-whatsapp href="#iletisim">WhatsApp</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">ARMAX GAYRİMENKUL</span>
+          <h1>Doğru taşınmaz.<br><em>Doğru karar.</em></h1>
+          <p>Satılık ve kiralık gayrimenkullerde güvenilir danışmanlık, doğru fiyatlama ve uçtan uca satış desteği.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#portfoy">Portföyü İncele</a><a class="btn btn-ghost" data-sahibinden href="#">Sahibinden Mağazamız ↗</a></div>
+          <div class="hero-note"><span>●</span> Güncel portföy sürekli senkronize edilir.</div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-card-img"></div>
+          <div class="hero-card-info"><div><span>Öne Çıkan</span><strong>Seçkin Gayrimenkuller</strong></div><div class="arrow">↗</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="search-panel" aria-label="Gayrimenkul arama">
+      <div class="container search-inner">
+        <div><small>NE ARIYORSUNUZ?</small><strong>Size uygun gayrimenkulü bulun.</strong></div>
+        <label><span>İşlem</span><select id="filterType"><option value="all">Tümü</option><option value="satilik">Satılık</option><option value="kiralik">Kiralık</option></select></label>
+        <label><span>Tip</span><select id="filterCategory"><option value="all">Tümü</option><option value="daire">Daire</option><option value="arsa">Arsa</option><option value="villa">Villa</option><option value="isyeri">İşyeri</option></select></label>
+        <label><span>Bölge</span><input id="filterLocation" type="text" placeholder="Gaziosmanpaşa..." /></label>
+        <button class="btn btn-dark" id="applyFilters">Ara</button>
+      </div>
+    </section>
+
+    <section class="section" id="portfoy">
+      <div class="container">
+        <div class="section-head"><div><span class="eyebrow">GÜNCEL PORTFÖY</span><h2>Öne çıkan ilanlar</h2><span class="muted" id="resultCount">İlanlar yükleniyor…</span></div><a class="text-link" data-sahibinden href="#">Sahibinden mağazamızdaki tüm ilanlar ↗</a></div>
+        <div class="listing-carousel-wrap"><button class="carousel-btn prev" aria-label="Önceki">‹</button><div class="listing-track" id="listingTrack"></div><button class="carousel-btn next" aria-label="Sonraki">›</button></div>
+        <p class="sync-status" id="syncStatus">Sahibinden mağazamıza hızlı erişim sağlanır. Resmî veri/API erişimi tanımlandığında kartlar otomatik olarak canlı veriden yenilenir.</p>
+      </div>
+    </section>
+
+    <section class="split-section" id="hakkimizda">
+      <div class="container split-grid"><div class="about-visual"><div class="about-badge"><strong>16+</strong><span>Yıllık<br>tecrübe</span></div></div><div class="about-copy"><span class="eyebrow">ARMAX HAKKINDA</span><h2>Gayrimenkulde güven, deneyim ve sonuç.</h2><p>Armax Gayrimenkul; bölge bilgisi, doğru fiyatlama ve kişiye özel danışmanlık yaklaşımıyla alıcı ve satıcıları güvenli bir süreçte buluşturur.</p><div class="stats"><div><strong>16+</strong><span>Yıl deneyim</span></div><div><strong>∞</strong><span>Çözüm odaklı</span></div><div><strong>1:1</strong><span>İlgili danışmanlık</span></div></div></div></div>
+    </section>
+
+    <section class="section light" id="hizmetler"><div class="container"><div class="section-head"><div><span class="eyebrow">HİZMETLERİMİZ</span><h2>Sürecin her adımında yanınızdayız.</h2></div></div><div class="service-grid"><article><span>01</span><h3>Doğru Fiyatlama</h3><p>Piyasa verileri ve bölgesel uzmanlıkla gayrimenkulünüz için gerçekçi fiyat konumlandırması.</p></article><article><span>02</span><h3>Pazarlama</h3><p>Profesyonel sunum, doğru hedef kitle ve çok kanallı ilan yönetimiyle görünürlük.</p></article><article><span>03</span><h3>Kredi & Finansman</h3><p>Alıcı için uygun finansman seçeneklerini anlamaya ve süreci planlamaya destek.</p></article><article><span>04</span><h3>Tapu Süreci</h3><p>Satıştan tapu aşamasına kadar belgeler ve süreç akışında koordinasyon.</p></article></div></div></section>
+
+    <section class="section" id="ekibimiz"><div class="container"><div class="section-head"><div><span class="eyebrow">EKİBİMİZ</span><h2>Size destek olacak ekip.</h2></div><span class="muted">Ekibimizle tanışın; doğru gayrimenkul kararında yanınızdayız.</span></div><div class="team-grid" id="teamGrid">
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/sinan-sivridasdan.png')"></div><div class="team-body"><h3>Sinan Sivridaşdan</h3><p>Gayrimenkul Danışmanı</p></div></article>
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/emir-sivridasdan.png')"></div><div class="team-body"><h3>Emir Sivridaşdan</h3><p>Gayrimenkul Danışmanı</p></div></article>
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/mert-ozdikmen.png')"></div><div class="team-body"><h3>Mert Özdikmen</h3><p>Gayrimenkul Danışmanı</p></div></article>
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/omer-basar.png')"></div><div class="team-body"><h3>Ömer Başar</h3><p>Gayrimenkul Danışmanı</p></div></article>
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/ugur-tastemir.png')"></div><div class="team-body"><h3>Uğur Taştemir</h3><p>Gayrimenkul Danışmanı</p></div></article>
+  <article class="team-card"><div class="team-photo" style="background-image:url('assets/images/team/adem-turhan.jpeg')"></div><div class="team-body"><h3>Adem Turhan</h3><p>Gayrimenkul Danışmanı</p></div></article>
+</div></div></section>
+
+    <section class="cta-section"><div class="container cta-box"><div><span class="eyebrow">GAYRİMENKULÜNÜZÜ SATMAYI MI DÜŞÜNÜYORSUNUZ?</span><h2>Doğru stratejiyi birlikte oluşturalım.</h2></div><a class="btn btn-primary" data-whatsapp href="#iletisim">WhatsApp'tan Ulaşın</a></div></section>
+  </main>
+
+  <footer id="iletisim"><div class="container footer-grid"><div><a class="brand-logo footer-brand-logo" href="#top"><img src="assets/images/armax-logo.jpg" alt="Armax Gayrimenkul - İnşaat Danışmanlığı"></a><p>Gayrimenkulde güvenilir çözüm ortağınız.</p></div><div><h4>Hızlı Menü</h4><a href="#portfoy">Portföy</a><a href="#hizmetler">Hizmetler</a><a href="#ekibimiz">Ekibimiz</a></div><div><h4>İletişim</h4><a data-phone href="tel:+905000000000">+90 5XX XXX XX XX</a><a data-email href="mailto:info@armaxgayrimenkul.com">info@armaxgayrimenkul.com</a><span data-address>Gaziosmanpaşa / İstanbul</span></div><div><h4>Bizi Takip Edin</h4><a data-instagram href="#">Instagram ↗</a><a data-sahibinden href="#">Sahibinden Mağazamız ↗</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> Armax Gayrimenkul</span><span>Gizlilik • KVKK • Çerezler</span></div></footer>
+  <script src="assets/js/config.js"></script><script src="assets/js/app.js"></script>
+</body></html>
