@@ -1,10 +1,98 @@
 [
-  {"title":"Armax'tan Yeni Mah Ultralüx 2+1 Yüksek Giriş","type":"satilik","category":"daire","location":"Yeni Mahalle / Gaziosmanpaşa","price":"6.590.000 TL","meta":"2+1 • 90 m² brüt • 85 m² net • Yüksek giriş","agent":"Sinan Sivridaşdan","updated":"11.09.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Bağlarbaşı TOKİ 7A'da Vialand Cephe 2+1","type":"satilik","category":"daire","location":"Bağlarbaşı / Gaziosmanpaşa","price":"6.700.000 TL","meta":"2+1 • 99 m² • 6. Kat","agent":"Uğur Taştemir","updated":"11.09.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Armax'tan Merkezde Satılık 4+2 Dubleks","type":"satilik","category":"daire","location":"Merkez Mah. / Gaziosmanpaşa","price":"7.800.000 TL","meta":"4+2 • 165 m² • 3. Kat","agent":"Mert Özdikmen","updated":"11.09.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Sarıgöl 12C Sitesinde Büyük Tip 3+1","type":"satilik","category":"daire","location":"Sarıgöl / Gaziosmanpaşa","price":"11.000.000 TL","meta":"3+1 • 140 m² • 4. Kat • 2 balkon","agent":"Armax Gayrimenkul","updated":"24.08.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Armax'tan 12C Projesinde Manzaralı 2+1","type":"satilik","category":"daire","location":"Sarıgöl / Gaziosmanpaşa","price":"8.500.000 TL","meta":"2+1 • 90 m² • 9. Kat • Amerikan mutfak","agent":"Armax Gayrimenkul","updated":"24.08.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Bağlarbaşı'nda 2+1 110 m² Kiralık Daire","type":"kiralik","category":"daire","location":"Bağlarbaşı / Gaziosmanpaşa","price":"43.000 TL / ay","meta":"2+1 • 130 m² brüt • 3. Kat","agent":"Armax Gayrimenkul","updated":"19.08.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"12C'de Manzaralı Amerikan Mutfak 2+1","type":"kiralik","category":"daire","location":"Sarıgöl / Gaziosmanpaşa","price":"35.000 TL / ay","meta":"2+1 • 90 m² • 6. Kat","agent":"Armax Gayrimenkul","updated":"24.08.2026","url":"https://armaxgayrimenkul.sahibinden.com/"},
-  {"title":"Bağlarbaşı Caddesi'nde 2+1 Satılık Daire","type":"satilik","category":"daire","location":"Bağlarbaşı / Gaziosmanpaşa","price":"4.650.000 TL","meta":"2+1 • 100 m² brüt • 2. Kat","agent":"Armax Gayrimenkul","updated":"10.09.2026","url":"https://armaxgayrimenkul.sahibinden.com/"}
+  {
+    "title": "Armax'tan Yeni Mah Ultralüx 2+1 Yüksek Giriş",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Yeni Mahalle / Gaziosmanpaşa",
+    "price": "6.590.000 TL",
+    "meta": "2+1 • 90 m² brüt • 85 m² net • Yüksek giriş",
+    "agent": "Sinan Sivridaşdan",
+    "updated": "11.09.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-1.svg"
+  },
+  {
+    "title": "Bağlarbaşı TOKİ 7A'da Vialand Cephe 2+1",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Bağlarbaşı / Gaziosmanpaşa",
+    "price": "6.700.000 TL",
+    "meta": "2+1 • 99 m² • 6. Kat",
+    "agent": "Uğur Taştemir",
+    "updated": "11.09.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-2.svg"
+  },
+  {
+    "title": "Armax'tan Merkezde Satılık 4+2 Dubleks",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Merkez Mah. / Gaziosmanpaşa",
+    "price": "7.800.000 TL",
+    "meta": "4+2 • 165 m² • 3. Kat",
+    "agent": "Mert Özdikmen",
+    "updated": "11.09.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-3.svg"
+  },
+  {
+    "title": "Sarıgöl 12C Sitesinde Büyük Tip 3+1",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Sarıgöl / Gaziosmanpaşa",
+    "price": "11.000.000 TL",
+    "meta": "3+1 • 140 m² • 4. Kat • 2 balkon",
+    "agent": "Armax Gayrimenkul",
+    "updated": "24.08.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-4.svg"
+  },
+  {
+    "title": "Armax'tan 12C Projesinde Manzaralı 2+1",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Sarıgöl / Gaziosmanpaşa",
+    "price": "8.500.000 TL",
+    "meta": "2+1 • 90 m² • 9. Kat • Amerikan mutfak",
+    "agent": "Armax Gayrimenkul",
+    "updated": "24.08.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-1.svg"
+  },
+  {
+    "title": "Bağlarbaşı'nda 2+1 110 m² Kiralık Daire",
+    "type": "kiralik",
+    "category": "daire",
+    "location": "Bağlarbaşı / Gaziosmanpaşa",
+    "price": "43.000 TL / ay",
+    "meta": "2+1 • 130 m² brüt • 3. Kat",
+    "agent": "Armax Gayrimenkul",
+    "updated": "19.08.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-2.svg"
+  },
+  {
+    "title": "12C'de Manzaralı Amerikan Mutfak 2+1",
+    "type": "kiralik",
+    "category": "daire",
+    "location": "Sarıgöl / Gaziosmanpaşa",
+    "price": "35.000 TL / ay",
+    "meta": "2+1 • 90 m² • 6. Kat",
+    "agent": "Armax Gayrimenkul",
+    "updated": "24.08.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-3.svg"
+  },
+  {
+    "title": "Bağlarbaşı Caddesi'nde 2+1 Satılık Daire",
+    "type": "satilik",
+    "category": "daire",
+    "location": "Bağlarbaşı / Gaziosmanpaşa",
+    "price": "4.650.000 TL",
+    "meta": "2+1 • 100 m² brüt • 2. Kat",
+    "agent": "Armax Gayrimenkul",
+    "updated": "10.09.2026",
+    "url": "https://armaxgayrimenkul.sahibinden.com/",
+    "image": "assets/images/listings/listing-4.svg"
+  }
 ]

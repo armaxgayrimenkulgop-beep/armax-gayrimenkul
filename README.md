@@ -1,25 +1,26 @@
-# ARMAX Gayrimenkul — GitHub Pages
+# Armax Gayrimenkul — GitHub Pages V2
 
-Kurumsal, mobil uyumlu, sade ve hızlı tek sayfa gayrimenkul sitesi.
+Bu sürüm Armax Gayrimenkul için daha güçlü kurumsal görünüm, yerel görsel varlıklar ve daha dayanıklı portföy yükleme sistemi içerir.
 
-## GitHub Pages kurulumu
-1. GitHub'da repository oluşturun.
-2. Bu klasörün içeriğini repository köküne yükleyin.
-3. Settings → Pages → Deploy from a branch → `main` / `/ (root)` seçin.
+## İçerik
+- Yeni kurumsal ana sayfa ve hero alanı
+- Logo için koyu mavi çerçeveli profesyonel sunum
+- Satılık / kiralık / gayrimenkul tipi / konum filtreleri
+- Yatay portföy slider'ı
+- Sahibinden mağazasına doğrudan bağlantılar
+- Sahibinden verisi/API erişimi olmadığı durumda bile çalışan yerel portföy yedeği
+- Yerel SVG portföy görselleri; harici görsel servislerine bağımlılık yok
+- 6 ekip fotoğrafı yerel olarak dahil
+- Hizmetler, rakamlar, hakkımızda, ekip ve iletişim bölümleri
+- Mobil menü ve responsive tasarım
 
-## Hazır özellikler
-- Kurumsal ana sayfa, hizmetler ve iletişim.
-- 6 kişilik ekip bölümü ve gönderilen personel fotoğrafları.
-- Satılık/kiralık/konum filtreli ilan alanı ve yatay slayt.
-- Sahibinden mağaza bağlantıları: https://armaxgayrimenkul.sahibinden.com/
-- Mobil menü, WhatsApp, Instagram, telefon ve e-posta alanları.
-- Güncel portföy için yerel JSON veri dosyası (`data-listings.json`).
-- Canlı veri için isteğe bağlı JSON endpoint (`assets/js/config.js` içindeki `listingsApi`).
+## GitHub Pages'e yükleme
+1. ZIP'i açın.
+2. İçindeki tüm dosyaları `armax` repository'nizin ana dizinine yükleyin.
+3. GitHub'da **Settings → Pages** bölümünde source olarak repository / `main` / `/ (root)` seçili olsun.
+4. Birkaç dakika sonra Pages adresini yenileyin.
 
-## Sahibinden canlı ilan entegrasyonu
-GitHub Pages statik bir barındırmadır. Sahibinden'den gizli anahtar gerektiren resmî veri/API çağrısını doğrudan tarayıcıya koymak güvenli değildir. Bu nedenle site iki katmanlı hazırlandı: `data-listings.json` açılışta gösterilecek portföy snapshot'ını sağlar; resmî API/veri aktarım yetkisi verildiğinde `listingsApi` alanına güvenli bir ara servis endpoint'i yazılarak site otomatik yenilenebilir.
+## Sahibinden canlı veri
+`assets/js/config.js` içindeki `listingsApi` alanı boş bırakılmıştır. Resmî Sahibinden API/veri transfer erişimi sağlandığında buraya güvenli bir JSON endpoint bağlanabilir.
 
-Not: 15.09.2026 itibarıyla mevcut Sahibinden mağaza sayfasına web üzerinden doğrudan erişim robots.txt ile engellendiğinden, siteye sahte bir “canlı Sahibinden API” bağlantısı konulmadı. Mağaza linki gerçek olarak entegre edildi; veriler ayrıca güncel bir başlangıç snapshot'ı ile sunuluyor.
-
-## Logo
-Armax'ın gönderdiği kurumsal logo `assets/images/armax-logo.jpg` olarak header ve footer'a entegre edilmiştir.
+> API anahtarını doğrudan GitHub Pages üzerindeki JavaScript'e koymayın. Anahtar varsa sunucu tarafında/serverless endpoint'te tutulmalıdır.
