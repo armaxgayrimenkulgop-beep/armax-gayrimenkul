@@ -9,7 +9,7 @@
     "agent": "Sinan Sivridaşdan",
     "updated": "11.09.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-1.svg"
+    "image": "assets/images/listings/listing-1.jpg"
   },
   {
     "title": "Bağlarbaşı TOKİ 7A'da Vialand Cephe 2+1",
@@ -21,7 +21,7 @@
     "agent": "Uğur Taştemir",
     "updated": "11.09.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-2.svg"
+    "image": "assets/images/listings/listing-2.jpg"
   },
   {
     "title": "Armax'tan Merkezde Satılık 4+2 Dubleks",
@@ -33,7 +33,7 @@
     "agent": "Mert Özdikmen",
     "updated": "11.09.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-3.svg"
+    "image": "assets/images/listings/listing-3.jpg"
   },
   {
     "title": "Sarıgöl 12C Sitesinde Büyük Tip 3+1",
@@ -45,7 +45,7 @@
     "agent": "Armax Gayrimenkul",
     "updated": "24.08.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-4.svg"
+    "image": "assets/images/listings/listing-4.jpg"
   },
   {
     "title": "Armax'tan 12C Projesinde Manzaralı 2+1",
@@ -57,7 +57,7 @@
     "agent": "Armax Gayrimenkul",
     "updated": "24.08.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-1.svg"
+    "image": "assets/images/listings/listing-1.jpg"
   },
   {
     "title": "Bağlarbaşı'nda 2+1 110 m² Kiralık Daire",
@@ -69,7 +69,7 @@
     "agent": "Armax Gayrimenkul",
     "updated": "19.08.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-2.svg"
+    "image": "assets/images/listings/listing-2.jpg"
   },
   {
     "title": "12C'de Manzaralı Amerikan Mutfak 2+1",
@@ -81,10 +81,10 @@
     "agent": "Armax Gayrimenkul",
     "updated": "24.08.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-3.svg"
+    "image": "assets/images/listings/listing-3.jpg"
   },
   {
-    "title": "Bağlarbaşı Caddesi'nde 2+1 Satılık Daire",
+    "title": "Bağlarbaşı Caddesi'nde 2+1 Satılık Daire",
     "type": "satilik",
     "category": "daire",
     "location": "Bağlarbaşı / Gaziosmanpaşa",
@@ -93,6 +93,6 @@
     "agent": "Armax Gayrimenkul",
     "updated": "10.09.2026",
     "url": "https://armaxgayrimenkul.sahibinden.com/",
-    "image": "assets/images/listings/listing-4.svg"
+    "image": "assets/images/listings/listing-4.jpg"
   }
 ]
