@@ -16,8 +16,10 @@ document.head.insertAdjacentHTML('beforeend', `<style>
 .team-phone{display:block!important;margin-top:7px!important;font-size:10px!important;font-weight:800!important;color:#2b86c5!important}
 .team-phone:hover,.consultant-contact>a:hover strong,.consultant-contact>a:hover span{text-decoration:underline}
 
-/* Danışman isimleri: daha koyu ve okunaklı */
+/* Danışman isimleri ve iletişim isimleri: koyu, güçlü ve okunaklı */
 #ekibimiz .team-body h3{color:#0c2f4a!important;font-weight:800!important;font-size:17px!important;text-shadow:none!important}
 #ekibimiz .team-body p{color:#527083!important;font-weight:600!important}
 #ekibimiz .team-body{background:#fff!important}
+.consultant-contact>a strong{color:#0c2f4a!important;font-size:11px!important;font-weight:800!important}
+.consultant-contact>a span{color:#527083!important;font-size:10px!important;font-weight:600!important}
 </style>`);
