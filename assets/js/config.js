@@ -8,3 +8,11 @@ window.ARMAX_CONFIG = {
   listingsApi: '',
   refreshMs: 300000
 };
+
+document.head.insertAdjacentHTML('beforeend', `<style>
+.consultant-contact>a{display:flex!important;flex-direction:column;gap:2px;padding:6px 0!important;line-height:1.25}
+.consultant-contact>a strong{font-size:10px;color:#dcebf4;font-weight:800}
+.consultant-contact>a span{font-size:9px;color:#8eabbc;letter-spacing:.03em}
+.team-phone{display:block!important;margin-top:7px!important;font-size:10px!important;font-weight:800!important;color:#2b86c5!important}
+.team-phone:hover,.consultant-contact>a:hover strong,.consultant-contact>a:hover span{text-decoration:underline}
+</style>`);
